@@ -4,14 +4,19 @@
 <head>
     <title>Front-End-News</title>
     <meta charset="utf-8">
-    <link href="normalize.css">
+    <link href="main.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,500" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <p>Front-End-News</p>
+    <header class="hero">
+        <p class="logo"> Front End News</p>
     </header>
-    <main>
+    <main class="container">
+        <header class="sub-header">
+            <h1>Latest News</h1>
+            <p>The latest links in the front-end community. <a class='js-add-link' href='#'>Add a link now!</a></p>
+        </header>
         <ol>
             <li class='news-item'>
                 <a class='news-link' href='#'>Frontend Design</a>

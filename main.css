@@ -1,0 +1,100 @@
+/*************************************************
+*
+*   Front-end News! Stylesheet
+*
+*   Indigo        : #3f51b5
+*   Indigo (dark) : #303f9f
+*   Light blue    : #c5cae9
+*   White         : #fff
+*   Pink          : #ff4081
+*   Gray (dark)   : #212121
+*   Gray (medium) : #727272
+*   Gray (light)  : #b6b6b6
+*
+*************************************************/
+
+/*-----------------------------------------------
+*   Base
+-----------------------------------------------*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+body {
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #212121;
+    font-family: "Rubic", Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+    
+}
+
+ol {
+    list-style: none;
+}
+
+li {
+    margin: 0 auto 25px auto;
+    padding: 15px 0px;
+    border-bottom: 1px solid #727272;
+}
+
+li:last-child {
+    border: 0;
+}
+
+a {
+   text-decoration: none;
+}
+
+
+
+/*-----------------------------------------------
+*   Hero
+-----------------------------------------------*/
+
+.hero {
+    padding: 40px 0;
+    margin: 0 auto  20px auto;
+    background-color: #3f51b5;
+    color: #fff;
+    text-align: center;
+    
+    
+}
+
+/*-----------------------------------------------
+*   logo
+-----------------------------------------------*/
+
+.logo {
+	font-size: 3em;
+    text-transform: uppercase;
+}
+
+/*-----------------------------------------------
+*   container
+-----------------------------------------------*/
+
+.container {
+    width: 700px;
+    display: block;
+    margin: 10px auto 10px auto;
+    text-align: left;
+}
+
+
+.sub-header {
+	margin-bottom: 25px;
+}
+
+.sub-header a {
+	color: #ff4081;
+}
