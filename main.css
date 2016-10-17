@@ -17,45 +17,58 @@
 /*-----------------------------------------------
 *   Base
 -----------------------------------------------*/
+
 body {
     font-family: 'Rubik', Helvetica, sans-serif;
     font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6, {
-    
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding-bottom: 5px;
 }
 
 p {
-    
+    margin: 0;
+    padding: 0;
 }
 
 ol {
     list-style-type: none;
+    padding: 0px;
 }
 
 ul {
     list-style-type: none;
+    padding: 0px;
 }
 
 li {
-    
+    margin: 0 0;
+    padding: 0px;
 }
 
 a {
     text-decoration: none;
 }
 
+
 /*-----------------------------------------------
 *   Hero
 -----------------------------------------------*/
 
 .hero {
-	background-color:  #3f51b5;
+    background-color: #3f51b5;
     margin-bottom: 10px;
     padding: 40px;
     text-align: center;
 }
+
 
 /*-----------------------------------------------
 *   Logo
@@ -65,16 +78,68 @@ a {
     color: #fff;
     font-size: 40px;
     font-weight: 200;
-	margin: 0px;
+    margin: 0px;
     text-transform: uppercase;
 }
+
 
 /*-----------------------------------------------
 *   Container
 -----------------------------------------------*/
 
 .container {
-	width: 800px;
     margin: 0 auto;
+    width: 800px;
 }
+
+.sub-header {
+    margin-bottom: 10px;
+    padding: 20px 0;
+}
+
+/*-----------------------------------------------
+*   News-link
+-----------------------------------------------*/
+.news-link, .news-link:visited, .news-link:active {
+    color: #303f9f;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*-----------------------------------------------
+*   News-item
+-----------------------------------------------*/
+
+.news-item {
+    border-bottom: 1px solid #b6b6b6;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.news-item:last-child {
+	border-bottom: 0px;
+}
+
+/*-----------------------------------------------
+*   News-meta-item
+-----------------------------------------------*/
+
+.news-meta-item {
+    display: inline;
+    font-weight: 300;
+    line-height: 25px;
+    padding-right: 15px;
+}
+
+.news-meta-item a {
+	color: #ff4081;
+}
+
+.news-meta-item:last-child {
+	padding-right: 0px;
+    
+}
+
+
+
 
