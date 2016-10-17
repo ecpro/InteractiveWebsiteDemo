@@ -13,6 +13,7 @@
 *
 *************************************************/
 
+
 /*-----------------------------------------------
 *   Base
 -----------------------------------------------*/
@@ -20,9 +21,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    border: 0px;
 }
-
 
 body {
     box-sizing: border-box;
@@ -32,9 +31,10 @@ body {
     font-size: 16px;
 }
 
-h1, h2, h3, h4 {
-    
-}
+h1,
+h2,
+h3,
+h4 {}
 
 ol {
     list-style-type: none;
@@ -44,22 +44,15 @@ ul {
     list-style-type: none;
 }
 
-li {
-    
-}
+li {}
 
-li {
-    
-}
+li {}
 
-li:last-child {
-    
-}
+li:last-child {}
 
 a {
-   text-decoration: none;
+    text-decoration: none;
 }
-
 
 
 /*-----------------------------------------------
@@ -68,22 +61,22 @@ a {
 
 .hero {
     padding: 40px 0;
-    margin: 0 auto  20px auto;
+    margin: 0 auto 20px auto;
     background-color: #3f51b5;
     color: #fff;
     text-align: center;
-    
-    
 }
+
 
 /*-----------------------------------------------
 *   logo
 -----------------------------------------------*/
 
 .logo {
-	font-size: 3em;
+    font-size: 3em;
     text-transform: uppercase;
 }
+
 
 /*-----------------------------------------------
 *   container
@@ -96,41 +89,70 @@ a {
     text-align: left;
 }
 
-
 .sub-header {
-	margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .sub-header a {
-	color: #ff4081;
+    color: #ff4081;
 }
 
-.news-meta {
-	
-}
+.news-meta {}
 
-.news > li {
+.news>li {
     line-height: 25px;
-	margin-bottom: 30px;
+    margin-bottom: 30px;
     padding-bottom: 15px;
     border-bottom: 1px solid #b6b6b6;
 }
 
-.news > li:last-child{
+.news>li:last-child {
     border-bottom: 0px;
-	margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
-.news-meta > li {
+.news-meta>li {
     padding-right: 25px;
     display: inline;
-	list-style-type: none;
+    list-style-type: none;
 }
 
 .news-meta a {
-	color: #ff4081;
+    color: #ff4081;
 }
 
-.news-meta > li:last-child{
-	padding-right: 0px;
+.news-meta>li:last-child {
+    padding-right: 0px;
+}
+
+.news-item > a:visited, .news-item > a:active {
+    color: #303f9f;
+}
+
+.modal {
+    position: relative;
+    border-radius: 3px;
+    border: 0 1px solid #fff;
+    width: 500px;
+    margin: 10px auto;
+    box-shadow: 1px 1px 5px #000,
+        -1px -1px 5px #000;
+
+}
+
+.modal-media h3 {
+    position: absolute;
+    top : 450px;
+    left: 10px;
+    padding: 0 15px;
+    margin-bottom: 5px;
+    z-index: 1;
+    color: #fff;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+
+.modal-content {
+    margin: 10px;
+	padding: 0 15px;
 }
