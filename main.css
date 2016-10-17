@@ -37,17 +37,23 @@ h1, h2, h3, h4 {
 }
 
 ol {
-    list-style: none;
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
 }
 
 li {
-    margin: 0 auto 25px auto;
-    padding: 15px 0px;
-    border-bottom: 1px solid #727272;
+    
+}
+
+li {
+    
 }
 
 li:last-child {
-    border: 0;
+    
 }
 
 a {
@@ -97,4 +103,34 @@ a {
 
 .sub-header a {
 	color: #ff4081;
+}
+
+.news-meta {
+	
+}
+
+.news > li {
+    line-height: 25px;
+	margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #b6b6b6;
+}
+
+.news > li:last-child{
+    border-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.news-meta > li {
+    padding-right: 25px;
+    display: inline;
+	list-style-type: none;
+}
+
+.news-meta a {
+	color: #ff4081;
+}
+
+.news-meta > li:last-child{
+	padding-right: 0px;
 }
