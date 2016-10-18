@@ -55,6 +55,13 @@ li {
 
 a {
     text-decoration: none;
+    color: #ff4081;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #727272;
 }
 
 
@@ -97,14 +104,17 @@ a {
     padding: 20px 0;
 }
 
+
 /*-----------------------------------------------
 *   News-link
 -----------------------------------------------*/
-.news-link, .news-link:visited, .news-link:active {
+
+.news-link {
     color: #303f9f;
     font-size: 20px;
     font-weight: 300;
 }
+
 
 /*-----------------------------------------------
 *   News-item
@@ -117,8 +127,9 @@ a {
 }
 
 .news-item:last-child {
-	border-bottom: 0px;
+    border-bottom: 0px;
 }
+
 
 /*-----------------------------------------------
 *   News-meta-item
@@ -131,15 +142,25 @@ a {
     padding-right: 15px;
 }
 
-.news-meta-item a {
-	color: #ff4081;
-}
-
 .news-meta-item:last-child {
-	padding-right: 0px;
-    
+    padding-right: 0px;
 }
 
+/*-----------------------------------------------
+*   States
+-----------------------------------------------*/
+.is-liked {
+    animation: flash 2s;
+}
 
+/*-----------------------------------------------
+*   Animation
+-----------------------------------------------*/
 
-
+@keyframes flash {
+    0% { opacity: 1;}
+    25% { opacity: 0;}
+    50% { opacity: 1;}
+    75% { opacity: 0;}
+    100 % { opacity: 1}
+}
