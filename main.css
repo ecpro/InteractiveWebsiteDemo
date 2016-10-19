@@ -187,9 +187,12 @@ a:focus {
     background-color: #fff;
     left: 50%;
     position: absolute;
+    opacity: 0;
     width: 500px;
     top: 50px;
-    transform: translateX(-50%);
+    transition: 0.2s ease-in-out;
+    transform: translate(-50%, -20%);
+    visibility: hidden;
     z-index: 2;
 }
 
@@ -216,10 +219,11 @@ a:focus {
     height: 100%;
     left: 0;
     position: fixed;
-    opacity: 0.5;
+    opacity: 0;
     right: 0;
     top: 0;
     width: 100%;
+    visibility: hidden;
     z-index: 1;
 }
 
@@ -236,6 +240,16 @@ a:focus {
     height: auto;
     opacity: 1;
     visibility: visible;
+}
+
+
+.modal-overlay.is-visible {
+    visibility: visible;
+    opacity: 0.5;
+}
+
+.modal.is-visible {
+	transform: translate(-50%, -5%);
 }
 
 
