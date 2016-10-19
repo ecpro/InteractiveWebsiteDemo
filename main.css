@@ -189,9 +189,9 @@ a:focus {
     position: absolute;
     width: 500px;
     top: 50px;
-    transform : translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 2;
 }
-
 
 .modal-media {
     position: relative;
@@ -204,12 +204,23 @@ a:focus {
     font-weight: 200;
     left: 20px;
     position: absolute;
-    
 }
 
 .modal-content {
     padding: 10px 20px;
-    
+}
+
+.modal-overlay {
+    background-color: #727272;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    opacity: 0.5;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 
